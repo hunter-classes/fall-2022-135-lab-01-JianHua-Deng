@@ -7,7 +7,7 @@ Course: CSCI-135
 Instructor: 
 Assignment: Lab 1, Task C
 
-This program asks user for a specific year and determine if the year is a leap year or a common year
+This program asks user for a specific year and return if the year is a leap year or a common year
 */
 
 int main()

@@ -16,11 +16,11 @@ int main(){
   int first, second, smallest;
   
   //Asking users for inputs
-  cout << "What's your first number" << endl;
-  cin >> first;
+  std::cout << "What's your first number" << std::endl;
+  std::cin >> first;
   
-  cout << "What's your second number" << endl;
-  cin >> second;
+  std::cout << "What's your second number" << std::endl;
+  std::cin >> second;
 
   //If statement that determine the smallest number
   if(first > second){
@@ -32,7 +32,7 @@ int main(){
   }//end else
 
   //printing out the result
-  cout << endl <<"The smallest of the two number is: " << smallest;
+  std::cout << std::endl <<"The smallest of the two number is: " << smallest << std::endl;
 
   return 0;
 }//end main

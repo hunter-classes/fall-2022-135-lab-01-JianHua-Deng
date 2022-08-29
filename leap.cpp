@@ -16,20 +16,20 @@ int main()
   int year;
 
   //Asking users for inputs
-  cout << "What's the year?" << endl;
-  cin >> year;
+  std::cout << "What's the year?" <<std::endl;
+  std::cin >> year;
 
   //Using % to determine if the year is a leap year or a common year
   //Pretty much just did exactly what the pseudocode saids XD
   
   if(year % 4 != 0){
-    cout << "This is a common year";
+   std::cout << "This is a common year" << std::endl;
   }else if(year % 100){
-    cout << "This is a leap year";
+    std::cout << "This is a leap year" << std::endl;
   }else if(year % 400){
-    cout << "This is a common year";
+    std::cout << "This is a common year" << std::endl;
   }else{
-    cout << "This is a leap year";
+    std::cout << "This is a leap year" << std::endl;
   }//end of all conditions
   
   return 0;

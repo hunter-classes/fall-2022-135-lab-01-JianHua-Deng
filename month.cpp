@@ -24,11 +24,11 @@ int main()
   february = 28;
     
 //Asking users for inputs
-  cout << "What's the year?" << endl;
-  cin >> year;
+  std::cout << "What's the year?" << std::endl;
+  std::cin >> year;
 
-  cout << "What's the month?" << endl;
-  cin >> month;
+  std::cout << "What's the month?" << std::endl;
+  std::cin >> month;
 
 //Check if the given year is a leap or a common year
 //Pretty much just copied and pasted the code from task C, leap.cpp
@@ -48,15 +48,15 @@ int main()
   
   //if it is a leap year and it's February
   if((!common) && (month ==2)){
-    cout << "There's " << (february + 1) << " days in this Month."<< endl;
+    std::cout << "There's " << (february + 1) << " days in this Month."<< std::endl;
   }else if(month == 2)/*if it is a common year and in february */{
-    cout << "There's " << february << " days in this Month."<< endl;
+    std::cout << "There's " << february << " days in this Month."<< std::endl;
   }else{
     //This sets of conditions determines days within a month outside of february
     if(month % 2 != 0){
-      cout << "There's " << odd << " days in this Month."<< endl;
+      std::cout << "There's " << odd << " days in this Month."<< std::endl;
     }else{
-      cout << "There's " << even << " days in this Month."<< endl;
+      std::cout << "There's " << even << " days in this Month."<< std::endl;
     }//end conditions
   }//end of all conditions
 

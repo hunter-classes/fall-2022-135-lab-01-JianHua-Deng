@@ -17,14 +17,14 @@ int main()
   int first, second, third, smallest;
   
   //Asking users for inputs
-  cout << "What's your first number" << endl;
-  cin >> first;
+  std::cout << "What's your first number" << std::endl;
+  std::cin >> first;
   
-  cout << "What's your second number" << endl;
-  cin >> second;
+  std::cout << "What's your second number" << std::endl;
+  std::cin >> second;
   
-  cout << "What's your third number" << endl;
-  cin >> third;
+  std::cout << "What's your third number" << std::endl;
+  std::cin >> third;
 
   //Determine which number are the greasted by using simple if statements
   smallest = first;
@@ -37,7 +37,7 @@ int main()
     smallest = third;
   }//end condition
 
-  cout << endl <<"The smallest of the three number is: " << smallest;
+  std::cout << std::endl <<"The smallest of the three number is: " << smallest << std::endl;
 
   return 0;
 }//end main

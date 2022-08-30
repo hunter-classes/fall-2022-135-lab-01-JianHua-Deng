@@ -4,7 +4,7 @@
 /*
 Author: JianHua Deng
 Course: CSCI-135
-Instructor: 
+Instructor: Mike Zamansky
 Assignment: Lab 1, Task B
 
 This program asks users for inputs of numbers, and determine which number is the smallest out of all 3 numbers

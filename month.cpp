@@ -4,7 +4,7 @@
 /*
 Author: JianHua Deng
 Course: CSCI-135
-Instructor: 
+Instructor: Mike Zamansky
 Assignment: Lab 1, Task D
 
 This program asks user for a specific year and month, and prints the amount of day within that month

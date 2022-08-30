@@ -4,7 +4,7 @@
 /*
 Author: JianHua Deng
 Course: CSCI-135
-Instructor: 
+Instructor: Mike Zamansky
 Assignment: Lab 1, Task C
 
 This program asks user for a specific year and return if the year is a leap year or a common year

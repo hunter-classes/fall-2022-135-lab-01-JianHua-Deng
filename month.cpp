@@ -44,8 +44,11 @@ int main()
 
 //Checking how many days are within that month given that we know if the year is a leap or a common year
 //If it is a leap year, then there will be total of 366 day, and the extra day will be added to February
-//Didn't know that there were 31 days every 4 month, so I had to kinda hard code this and fix it.
+
+
+//Didn't know that the months of 30 days and 31 days weren't seperated in a pattern, so I had to fix it XD
   
+
   //if it is a leap year and it's February
   if((!common) && (month ==2)){
     std::cout << "There's " << (february + 1) << " days in this Month."<< std::endl;
@@ -53,7 +56,7 @@ int main()
     std::cout << "There's " << february << " days in this Month."<< std::endl;
   }else{
     //This sets of conditions determines days within a month outside of february
-    if(month % 4 == 0 || month == 1){
+    if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
       std::cout << "There's " << thirtyOne << " days in this Month."<< std::endl;
     }else{
       std::cout << "There's " << thirtyDays << " days in this Month."<< std::endl;
